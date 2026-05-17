@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Gerenciando Instâncias EC2 na AWS — Desafio DIO
 
 > Repositório: [github.com/sir-devtech/Desafio-AWS-](https://github.com/sir-devtech/Desafio-AWS-)
@@ -210,4 +209,3 @@ Se um cliente fechar contrato:
 Este projeto demonstra um caso de uso real e prático do EC2: não apenas como laboratório, mas como infraestrutura produtiva para um sistema comercial. A estratégia de **Snapshots + AMI para standby** é uma abordagem profissional e econômica para projetos em fase de negociação, eliminando custos operacionais enquanto preserva 100% do ambiente para retomada imediata.
 =======
 # Desafio-AWS-
->>>>>>> f585df4ae6c882c47c5455517cef04e8f1fd73fc
