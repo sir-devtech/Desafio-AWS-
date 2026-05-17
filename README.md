@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gerenciando Instâncias EC2 na AWS — Desafio DIO
 
 > Repositório: [github.com/sir-devtech/Desafio-AWS-](https://github.com/sir-devtech/Desafio-AWS-)
@@ -27,7 +28,7 @@ O sistema foi mantido rodando na AWS com uma instância EC2, banco de dados e ap
 
 ### Sistema em Funcionamento
 
-![Dashboard do Sistema GCM](images/sistema-gcm.jpg)
+![Dashboard do Sistema GCM](Captura%20de%20tela%202026-05-17%20195440.png)
 
 > Dashboard principal com Mural Eletrônico, controle de Viaturas Ativas, Banco de Horas dos agentes, Ordens de Serviço e rastreamento em tempo real.
 
@@ -107,7 +108,7 @@ No console AWS (`sa-east-1`):
 - **`Ipero_Backup`** — ambiente completo do sistema GCM configurado para o município de Ipero/SP
 - **`ShowRoom_Backup`** — ambiente de demonstração para apresentação a novos clientes
 
-![AMIs EC2 — ambientes em standby](images/amis-ec2.jpg)
+![AMIs EC2 — ambientes em standby](Captura%20de%20tela%202026-05-17%20195239.png)
 
 ### Snapshots EBS
 
@@ -118,7 +119,7 @@ No console AWS (`sa-east-1`):
 
 > Os snapshots foram gerados automaticamente durante a criação das AMIs, garantindo cópia fiel do estado dos volumes EBS.
 
-![Snapshots EBS — backups dos ambientes](images/snapshots-ebs.jpg)
+![Snapshots EBS — backups dos ambientes](Captura%20de%20tela%202026-05-17%20195849.png)
 
 ---
 
@@ -207,3 +208,6 @@ Se um cliente fechar contrato:
 ## Conclusão
 
 Este projeto demonstra um caso de uso real e prático do EC2: não apenas como laboratório, mas como infraestrutura produtiva para um sistema comercial. A estratégia de **Snapshots + AMI para standby** é uma abordagem profissional e econômica para projetos em fase de negociação, eliminando custos operacionais enquanto preserva 100% do ambiente para retomada imediata.
+=======
+# Desafio-AWS-
+>>>>>>> f585df4ae6c882c47c5455517cef04e8f1fd73fc
